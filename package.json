@@ -1,0 +1,20 @@
+{
+  "name": "razorpay_buildathon",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "prettier": "3.9.6",
+    "turbo": "^2.10.11",
+    "typescript": "7.0.2"
+  },
+  "packageManager": "pnpm@11.23.0",
+  "engines": {
+    "node": ">=24"
+  }
+}
